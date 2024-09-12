@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos</title>
+    <style>
+        .formulario-contenedor {
+            margin: 20px;
+        }
+
+        fieldset {
+            border: 1px solid #000;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>
+            <fieldset>
+                <strong>Rellena tu CV</strong>
+                <br>
+                <label>Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label>Apellidos</label>
+                <input type="text" name="apellido" id="apellido">
+                <label>Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña">
+                <label>DNI</label>
+                <input type="text" name="dni" id="dni">
+                <label>Fecha de Nacimiento</label>
+
+                <label>Sexo</label>
+                <input type="radio" name="sexo" value="hombre"> Hombre
+                <br>
+                <input type="radio" name="sexo" value="mujer"> Mujer
+                <br>
+                <label>Incluir mi foto <input type="file" name="imagen" id="imagen"></label>
+
+                <label><input type="checkbox" id="acepto" name="acepto"> Suscribirme al boletín de novedades</label>
+
+                <br>
+                <button>Guardar cambios </button> <button>Borrar los datos introducidos</button>
+
+            </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
