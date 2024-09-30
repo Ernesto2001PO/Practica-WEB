@@ -1,0 +1,27 @@
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 10px 5px;
+}
+
+
+body{
+    width: 100%;
+
+
+}
+
+
+
+.main-container{
+    width: 900px;
+    margin: 0 auto;
+
+    
+}
