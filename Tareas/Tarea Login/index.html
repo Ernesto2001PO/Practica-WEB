@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <img src="../Tarea Login/logo-captura.png" alt="Logo" class="logo">
+            <h2>Ingreso</h2>
+            <form action="/login" method="POST">
+                <div class="input-group">
+                    <input type="text" name="user-code" placeholder="Código de Usuario" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                </div>
+                <button type="submit" class="login-btn">Entrar</button>
+            </form>
+            <div class="footer-links">
+                <a href="#">No puede recordar su contraseña?</a>
+                <a href="#">Recuperar contraseña</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
