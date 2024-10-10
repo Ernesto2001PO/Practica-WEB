@@ -74,23 +74,22 @@ section .primer {
 
 
 .image_project {
-    margin-top: 50px;
-    position: absolute;
-    display: flex;
-    justify-content: end;
-    padding-right: 30px;
-
-
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   display: flex;
 }
+
 
 .flecha {
     width: 22px;
     height: 18px;
+    margin-right: 10px; 
+    margin-top: 16px;
 }
 
 #text {
     display: inline-block;
     vertical-align: top;
-    
 }
-
