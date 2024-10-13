@@ -7,7 +7,10 @@ body{
     border-top: 7px solid rgba(180, 180, 180, 0.5);
 }
 
-.main-container{
-    width: 940px;
-    margin: 0px auto;
+.main-container {
+    width: 100%;
+    max-width: 1200px; /* Limita el ancho máximo en pantallas grandes */
+    margin: 0 auto; /* Los márgenes automáticos centran el contenedor */
+    padding: 0 20px; /* Añade un poco de padding lateral */
+    box-sizing: border-box;
 }

@@ -1,0 +1,156 @@
+@media (max-width: 768px) {
+
+
+    .main-container {
+        padding: 0 10px; /* Reduce el padding en pantallas más pequeñas */
+    }
+
+    .features__item, .image_project div {
+        width: 100%; /* Asegura que los ítems ocupen todo el ancho del contenedor en pantallas pequeñas */
+    }
+
+    /*Header*/
+    .header {
+        display: flex;
+        flex-direction: row;
+        /* Cambia a una columna en pantallas pequeñas */
+        align-items: center;
+        /* Alinea los elementos en el centro */
+        justify-content: space-between;
+        /* Espacio entre los elementos */
+
+
+    }
+
+    .header .menu {
+        display: none;
+        /* Oculta el menú */
+    }
+
+    .logo {
+        margin-bottom: 20px;
+        /* Espacio entre el logo y el menú */
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        /* Cambia a columnas el menú */
+        align-items: center;
+    }
+
+    /*BANNER*/
+
+    .banner {
+        margin: 50px 0px 0px;
+        font-family: 'Bebas', sans-serif;
+        position: relative;
+
+    }
+
+    .banner__subtitle {
+        position: absolute;
+        left: 0px;
+        bottom: 3px;
+        background-color: #404040;
+        padding: 14px 18px 12px 17px;
+    }
+
+    .banner__subtitle__text1 {
+        color: #9a9a9a;
+        font-size: 14px;
+        display: block;
+    }
+
+    /*LATESTWORK*/
+    .latest-work {
+        margin-top: 70px;
+    }
+
+    /*FEATURES*/
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* Cambia a columnas */
+        margin-top: 20px;
+
+    }
+
+    .features_481_item {
+        width: 100%;
+        max-width: 600px;
+        /* Ajusta el ancho máximo de los ítems */
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        /* Asegura que el contenido dentro de los ítems también esté alineado */
+        text-align: center;
+        /* Centra el texto dentro de cada ítem */
+    }
+
+    .image_project {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* Distribuye las imágenes de manera uniforme */
+        margin-top: 20px;
+    }
+
+    /* Estilos predeterminados (para pantallas grandes) */
+    .image_project div {
+        width: 23%;
+        /* Por defecto 4 imágenes por fila */
+        margin-bottom: 20px;
+    }
+
+    /* Estilos predeterminados para pantallas grandes (769px en adelante) */
+    .image_project div {
+        width: 23%;
+        /* Por defecto 4 imágenes por fila */
+        margin-bottom: 20px;
+    }
+
+    /* Pantallas medianas (de 501px a 768px) */
+    @media (max-width: 768px) and (min-width: 501px) {
+        .image_project div {
+            width: 48%;
+            /* 2 imágenes por fila en pantallas medianas */
+        }
+    }
+
+    /* Pantallas pequeñas (de 401px a 500px) */
+    @media (max-width: 500px) and (min-width: 401px) {
+        .image_project div {
+            width: 100%;
+            /* 1 imagen por fila en pantallas más pequeñas */
+        }
+    }
+
+    /* Pantallas muy pequeñas (de 0px a 400px) */
+    @media (max-width: 400px) {
+        .image_project div {
+            width: 100%;
+            /* 1 imagen por fila en pantallas muy pequeñas */
+        
+        }
+
+        /* Ajusta el tamaño de la fuente, margenes, etc. si es necesario */
+        .features__item {
+            font-size: 14px;
+            /* Reduce el tamaño de la fuente en pantallas muy pequeñas */
+            padding: 10px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
