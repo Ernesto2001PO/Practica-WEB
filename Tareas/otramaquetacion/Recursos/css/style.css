@@ -1,0 +1,208 @@
+/* Estilos generales para móviles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1b1b;
+    padding: 10px 20px;
+    color: white;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Ocultamos el menú por defecto en móvil */
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.hotel-title {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+#language-selector {
+    padding: 5px;
+    font-size: 14px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Ajustes para el banner */
+.contenedor_banner {
+    position: relative;
+    width: 100%;
+}
+
+.contenedor_banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* El formulario ocupa el 90% del ancho en pantallas móviles */
+.contenedor_formulario {
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 14px;
+}
+
+.input-group select,
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+.contenedor_imagenes  {
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.imagen {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    background-color: #1e1bb1;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.imagen h3 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.imagen p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+/* Media Queries para pantallas más grandes */
+
+@media (min-width: 768px) {
+    .menu ul {
+        display: flex; /* Mostramos el menú en pantallas medianas */
+    }
+
+    .contenedor_formulario {
+        width: 60%; /* Ajustamos el ancho del formulario */
+    }
+
+    .formulario {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    button {
+        grid-column: span 2; /* El botón ocupa todo el ancho en pantallas medianas */
+    }
+    .contenedor_imagenes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+    .menu {
+        padding: 15px 50px;
+    }
+
+    .contenedor_formulario {
+        width: 50%; /* Ajustamos el ancho del formulario para pantallas grandes */
+    }
+
+    .formulario {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    button {
+        grid-column: span 4; /* El botón sigue ocupando todo el ancho en pantallas grandes */
+    }
+
+    .contenedor_imagenes {
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    
+    }
+
+    
+}
