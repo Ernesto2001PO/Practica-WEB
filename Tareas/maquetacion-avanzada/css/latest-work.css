@@ -1,6 +1,9 @@
 .latest-work{
     margin-top: 70px;
+<<<<<<< HEAD
     margin-bottom: 400px; /*Provisional*/
+=======
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
 }
 
 .latest-work__title{
@@ -15,4 +18,36 @@
 .latest-work__title__text{
     background-color: #fff;
     padding: 0px 30px;
+<<<<<<< HEAD
+=======
+}
+
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    height: 73px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #888;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content a {
+    color: #888;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
 }

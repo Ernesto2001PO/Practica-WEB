@@ -1,10 +1,20 @@
+<<<<<<< HEAD
 .banner{
+=======
+
+
+.banner {
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
     margin: 50px 0px 0px;
     font-family: 'Bebas', sans-serif;
     position: relative;
 }
 
+<<<<<<< HEAD
 .banner__subtitle{
+=======
+.banner__subtitle {
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
     position: absolute;
     left: 0px;
     bottom: 3px;
@@ -12,37 +22,59 @@
     padding: 14px 18px 12px 17px;
 }
 
+<<<<<<< HEAD
 .banner__subtitle__text1{    
+=======
+.banner__subtitle__text1 {
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
     color: #9a9a9a;
     font-size: 14px;
     display: block;
 }
 
 
+<<<<<<< HEAD
 .banner__subtitle__text2{    
+=======
+.banner__subtitle__text2 {
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
     color: #fff;
     font-size: 28px;
 }
 
+<<<<<<< HEAD
 .banner__footer{
+=======
+.banner__footer {
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
     color: #474747;
     background-color: rgba(180, 180, 180, 0.1);
     margin-top: -3px;
     padding: 20px 15px;
 }
 
+<<<<<<< HEAD
 .banner__footer__title{
+=======
+.banner__footer__title {
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
     font-size: 16px;
     font-family: 'Bebas', sans-serif;
     margin: 0px;
 }
 
+<<<<<<< HEAD
 .banner__footer p{
     font-family: 'HelveticaNeue', sans-serif;	
+=======
+.banner__footer p {
+    font-family: 'HelveticaNeue', sans-serif;
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
     font-size: 12px;
     margin-bottom: 0px;
 }
 
+<<<<<<< HEAD
 .banner-span{
 position: absolute;
 bottom: 4px;
@@ -53,10 +85,23 @@ display: flex;
 align-items: center;
 justify-content: end;
 padding-right: 10px;
+=======
+.banner-span {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    width: 200px;
+    height: 60PX;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
 
 }
 
 
+<<<<<<< HEAD
 .banner-span a{
 margin: 10px;
 width: 70px;
@@ -71,3 +116,41 @@ background-color: gray;
 
 
 }
+=======
+.banner-span a {
+    margin: 10px;
+    width: 70px;
+
+    height: 10px;
+    background-color: #fff;
+
+}
+
+section .primer {
+    background-color: gray;
+
+}
+
+
+
+.image_project {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   display: flex;
+}
+
+
+.flecha {
+    width: 22px;
+    height: 18px;
+    margin-right: 10px; 
+    margin-top: 16px;
+}
+
+#text {
+    display: inline-block;
+    vertical-align: top;
+}
+>>>>>>> a876fb04d53b571894f46e934362024e45ba983e
